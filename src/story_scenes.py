@@ -1,6 +1,6 @@
-from src.components.gamegui import Character, DialogueBox, ChoiceBox
-from src.components.globalvar import scene_types, screen
-from src.components.scene import Scene
+from components.gamegui import Character, DialogueBox, ChoiceBox
+from components.globalvar import scene_types, screen
+from components.scene import Scene
 
 s1 = Scene(screen,
            characters=[

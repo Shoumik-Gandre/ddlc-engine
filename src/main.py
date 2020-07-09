@@ -3,8 +3,8 @@ This File contains how we interact with everything.
 """
 
 import pygame
-from src.components.globalvar import scene_types, screen
-from src.story_scenes import s1
+from components.globalvar import scene_types, screen
+from story_scenes import s1
 
 
 def run_game():
