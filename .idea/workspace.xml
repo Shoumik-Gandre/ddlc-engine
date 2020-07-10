@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bfa2f4b-dbf6-4f78-bca8-66f602d14390" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Natsuki1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Natsuki1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Sayori1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Sayori1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Yuri1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Yuri1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/gamegui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/gamegui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/globalvar.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/globalvar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scene.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/scene.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/story_scenes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/story_scenes.py" afterDir="false" />
     </list>
@@ -91,7 +96,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

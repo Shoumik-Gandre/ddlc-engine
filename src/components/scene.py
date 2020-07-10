@@ -23,9 +23,14 @@ class Scene(object):
         if self.background:
             self.screen.blit(self.background, self.background.get_rect())
         if self.characters:
-            dist = self.compute_optimal_pos()
+            w = self.screen.get_width()
             for i, obj in enumerate(self.characters):
-                obj.position = (dist*i, obj.position[1])
+                """
+                The following line divides screen width-wise into "len(characters)" cells of equal width 
+                and puts an object in the middle of the ith cell with a left shift of imagewidth/2 of that image of character
+                """
+                fit_mid_cell = (2*i + 1) * w // (2 * len(self.characters)) - obj.image.get_rect().width//2
+                obj.position = (fit_mid_cell, obj.position[1])
                 obj.draw()
         if self.dialogue:
             self.dialogue.draw()
